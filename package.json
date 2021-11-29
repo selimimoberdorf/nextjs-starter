@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-starter",
+  "description": "Craftcms Starter",
+  "repository": {
+    "type": "git",
+    "url": "git://@github.com:sio0x/nextjs-starter.git"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "starter"
+  ],
+  "author": "sio",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "11.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.0",
+    "postcss": "^8.3.5",
+    "prettier": "2.3.1",
+    "tailwindcss": "^2.2.2",
+    "tailwindcss-hyphens": "^0.1.0"
+  }
+}
